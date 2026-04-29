@@ -1,0 +1,53 @@
+# ----------------------------------
+# Datasets and Media
+# ----------------------------------
+# Ignore your training data, test data, and image/video outputs
+data/
+datasets/
+*.csv
+*.dat
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+
+# ----------------------------------
+# Model Weights & Checkpoints
+# ----------------------------------
+# These files get massive and shouldn't be pushed
+*.weights
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pb
+models/
+runs/
+
+# ----------------------------------
+# Python & Virtual Environments
+# ----------------------------------
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+.ipynb_checkpoints/
+
+# ----------------------------------
+# C++ & Compiled Binaries
+# ----------------------------------
+*.exe
+*.out
+*.o
+*.obj
+build/
+
+# ----------------------------------
+# IDEs and OS Files
+# ----------------------------------
+.vscode/
+.idea/
+.DS_Store
+venv312/

@@ -1,0 +1,10 @@
+{
+    "model_pipeline": "ResNet18 + ElasticNet refinement",
+    "metric": "Spearman correlation",
+    "cv": "Leave-One-Slide-Out",
+    "notes": [
+        "Second-stage model uses OOF predictions",
+        "ElasticNet used for sparse dependency learning",
+        "Coordinate shifting improves convergence but not final score"
+    ]
+}
